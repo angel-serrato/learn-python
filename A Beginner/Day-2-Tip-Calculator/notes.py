@@ -31,7 +31,7 @@ str function convertion
 new_num_char = str(num_char)
 print('Your name has ' + new_num_char + ' characters.')
 """
-Mathematical operatos
+Mathematical operators
 """
 3 + 5
 7 - 4
@@ -46,4 +46,26 @@ Mathematical operatos
 # Division
 # Addition
 # Substraction
-
+"""
+round function
+"""
+print(round(8/3)) # 2
+print(round(8/3, 2)) # 2 is the given decimals
+"""
+floor division
+"""
+print(round(8//3)) # 2
+result = 4 / 2
+result /= 2
+print(result) # result = 1
+score = 1
+score += 1 # score = score + 1
+# += -= *= /=
+"""
+f strings
+"""
+puntaje = 10
+altura = 1.8
+gana = True
+print('your score is ' + str(puntaje))
+print(f"Your score is {puntaje}, your heigth is {altura}, you are winning is {gana}")
