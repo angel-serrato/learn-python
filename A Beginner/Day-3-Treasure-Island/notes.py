@@ -94,4 +94,63 @@ if size == "L":
 print(f'Your final bill is: ${bill}.')
 """
 logical operators
+and
+or
+not
 """
+print('Welcome to the rollercoaster!')
+height = int(input('What is your height in cm? '))
+bill = 0
+if height >= 120:
+    print('You can ride the rollercoaster!')
+    age = int(input('What is your age? '))
+    if age < 12:
+        print('Child tickets are $5.')
+        bill = 5
+    elif age <= 12 and age < 18:
+        print('Youth tickets are $7.')
+        bill = 7
+    elif age >= 18 and age < 45:
+        print('Adult tickets are $12.')
+        bill = 12
+    else:
+       print('You do not have to pay anything!')
+    photo = input('Do you want a photo? Yes or No?')
+    if photo == "y":
+        print('The fee is $3')
+        bill = bill + 3
+    print(f'The final bill is {bill}')
+else:
+    print('Sorry, you have to grow taller before you can ride.')
+"""
+lesson
+"""
+print("The Love Calculator is calculating your score...")
+name1 = input() # What is your name?
+name2 = input() # What is their name?
+# 🚨 Don't change the code above 👆
+# Write your code below this line 👇
+names = name1 + name2
+minusculas = names.lower()
+t = minusculas.count('t')
+r = minusculas.count('r')
+u = minusculas.count('u')
+e = minusculas.count('e')
+contadortrue = t + r + u + e
+  
+l = minusculas.count('l')
+o = minusculas.count('o')
+v = minusculas.count('v')
+e = minusculas.count('e')
+contadorlove = l + o + v + e
+  
+puntaje = int(str(contadortrue) + str(contadorlove))
+
+if puntaje < 10 or puntaje > 90:
+  print(f"Your score is {puntaje}, you go together like coke and mentos.")
+elif puntaje >= 40 and puntaje <= 50:
+  print(f'Your score is {puntaje}, you are alright together.')
+else:
+  print(f"Your score is {puntaje}.")
+
+
