@@ -17,5 +17,16 @@ def greeting(f_name, l_name):
 greeting('Angel', 'Serrato')
 
 """
-
+Indentation
+"""
+sky = 'clear'
+def other_function():
+    if sky == 'clear':
+        print('blue')
+    elif sky == 'cloudy':
+        print('grey')
+    print('hello')
+print('world')
+"""
+While loop
 """
