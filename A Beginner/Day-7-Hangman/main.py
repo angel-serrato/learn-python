@@ -31,15 +31,31 @@ guess = input("Guess a letter: ").lower()
 print(f'This is the solution {chosen_word}')
 display = []
 for item in chosen_word:
-    # display.append("_")
     display += "_"
 print(display)
+
+# Method two
+# for letter in range(len(chosen_word)):
+#     display += "_"
 
 """
 Todo 2 - Loop through each position in the chosen_word; If the letter at that position
 matches 'guess' then reveal that letter in the display at that position.
 """
 
-# for letter in chosen_word:
-#     if letter == guess:
-#         display[]
+for position in range(len(chosen_word)):
+    letter = chosen_word[position]
+    if letter == guess:
+        display[position] = letter
+
+"""
+Todo 3 - Print display and you should see the guessed letter in the correct position and
+every other letter replace with "_".
+"""
+print(display)
+
+# Step 3
+
+# Todo 1 - Use a while loop to let the user guess again. The loop should only stop once
+# the user has guessed all the letters in the chosen_word and display has no more
+# blanks.
