@@ -32,3 +32,12 @@ programming_dictionary = {}
 
 # Edit an item in a dictionary
 programming_dictionary["Angel"] = "Colombiano"
+
+# Loop through a dictionary
+# This code only gives you the key
+for thing in programming_dictionary:
+    print(thing)
+
+# print the value
+for key in programming_dictionary:
+    print(programming_dictionary[key])
