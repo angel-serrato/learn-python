@@ -41,3 +41,28 @@ for thing in programming_dictionary:
 # print the value
 for key in programming_dictionary:
     print(programming_dictionary[key])
+
+"""
+Grading program from auditorium
+"""
+
+student_scores = {
+  "Harry": 81,
+  "Ron": 78,
+  "Hermione": 99, 
+  "Draco": 74,
+  "Neville": 62,
+}
+# TODO-1: Create an empty dictionary called student_grades.
+student_grades = {}
+# TODO-2: Write your code below to add the grades to student_grades.👇
+for thing in student_scores:
+  if student_scores[thing] >= 91 and student_scores[thing] < 100:
+    student_grades[thing] = "Outstanding"
+  elif student_scores[thing] >= 81 and student_scores[thing] <= 90:
+    student_grades[thing] = "Exceeds Expectations"
+  elif student_scores[thing] >= 71 and student_scores[thing] <= 80:
+    student_grades[thing] = "Acceptable"
+  else:
+    student_grades[thing] = "Fail"
+print(student_grades)
