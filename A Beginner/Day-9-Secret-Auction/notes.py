@@ -53,9 +53,9 @@ student_scores = {
   "Draco": 74,
   "Neville": 62,
 }
-# TODO-1: Create an empty dictionary called student_grades.
+# TODO: 1: Create an empty dictionary called student_grades.
 student_grades = {}
-# TODO-2: Write your code below to add the grades to student_grades.👇
+# TODO: 2: Write your code below to add the grades to student_grades.👇
 for thing in student_scores:
   if student_scores[thing] >= 91 and student_scores[thing] < 100:
     student_grades[thing] = "Outstanding"
@@ -66,3 +66,110 @@ for thing in student_scores:
   else:
     student_grades[thing] = "Fail"
 print(student_grades)
+
+# for student in student_scores:
+#   score = student_scores[student]
+#   if score > 90:
+#     student_grades[student] = "Outstanding"
+#   elif score > 80:
+#     student_grades[student] = "Exceeds Expectations"
+#   elif score > 70:
+#     student_grades[student] = "Acceptable"
+#   else:
+#     student_grades[student] = "Fail"
+# print(student_grades)
+
+"""
+Nesting lists and dictionaries
+{
+   Key: [List],
+   Key2: {Dictionary},
+}
+Each key can only have one value
+"""
+
+capitals = {
+   "France": "Paris",
+   "Germany": "Berlin",
+}
+
+# Nesting a list in a dictionary
+travel = {
+   "France": ["Paris", "Lille", "Dijon"],
+   "Germany": ["One", "Two", "Three"],
+}
+
+# Nesting a dicionary in a dictionary
+travel = {
+   "France": {"cities_visited": ["Paris", "Lille", "Dijon",], "total_visits" : 12},
+   "Germany": [
+      "One",
+      "Two",
+      "Three"
+      ],
+}
+
+family = {
+   "child1": {
+      "name": "Angel",
+      "year": 2002,
+   },
+   "child2": {
+      "name": "Didier",
+      "year": 1987,
+   },
+   "child3": {
+      "name": "Ana",
+      "year": 1957,
+   }
+}
+
+# Nesting a dicionary in a list
+travel = [
+   {
+      "country": "France",
+      "cities_visited": ["Paris", "Lille", "Dijon"],
+      "total_visits": 12
+   },
+   {
+      "country": "Germany",
+      "cities_visited": ["Berlin", "Hamburg", "Other"],
+      "total_visits": 5
+   },
+]
+
+"""
+Dictionary in list exercise in auditorium
+"""
+
+country = input() # Add country name
+visits = int(input()) # Number of visits
+list_of_cities = eval(input()) # create list from formatted string
+
+travel_log = [
+  {
+    "country": "France",
+    "visits": 12,
+    "cities": ["Paris", "Lille", "Dijon"]
+  },
+  {
+    "country": "Germany",
+    "visits": 5,
+    "cities": ["Berlin", "Hamburg", "Stuttgart"]
+  },
+]
+# Do NOT change the code above 👆
+
+# TODO: Write the function that will allow new countries
+# to be added to the travel_log. 
+def add_new_country(pais, visitas, ciudades):
+  new_country = {}
+  new_country["country"] = pais
+  new_country["visits"] = visitas
+  new_country["cities"] = ciudades
+  travel_log.append(new_country)
+
+# Do not change the code below 👇
+add_new_country(country, visits, list_of_cities)
+print(f"I've been to {travel_log[2]['country']} {travel_log[2]['visits']} times.")
+print(f"My favourite city was {travel_log[2]['cities'][0]}.")
