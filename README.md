@@ -11,7 +11,7 @@ El curso de [100 days of code](https://www.udemy.com/course/100-days-of-code/) e
 El repositorio está organizado de la siguiente manera:
 
 - **Beginner/**: Ejercicios básicos.
-- **Intermiate/**: Ejercicios intermedios.
+- **Intermediate/**: Ejercicios intermedios.
 - **Advanced/**: Ejercicios avanzados.
 
 ## Cómo Contribuir
