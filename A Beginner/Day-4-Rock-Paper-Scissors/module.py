@@ -1,1 +1,0 @@
-pi = 'This variable was declared inside the module.py'
