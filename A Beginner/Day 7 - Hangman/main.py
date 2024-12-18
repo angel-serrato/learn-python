@@ -1,9 +1,9 @@
 import random
-import hangman_words
+from hangman_words import words
 import hangman_art
 
 def play_hangman():
-    chosen_word = random.choice(hangman_words.words)
+    chosen_word = random.choice(words)
 
     placeholder = ""
     for n in range(len(chosen_word)):
