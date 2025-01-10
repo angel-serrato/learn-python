@@ -34,3 +34,16 @@ animaluno.breathe()
 animaluno.swim()
 animaluno.jump()
 print(animaluno.name)
+
+# Slicing en python
+
+piano_keys = ["a","b","c","d","e","f","g","g"]
+piano_tuple = ("do","re","mi","fa","sol")
+print(piano_keys[2:5])
+print(piano_keys[2:])
+print(piano_keys[:5])
+print(piano_keys[2:5:2])
+print(piano_keys[::2])
+print(piano_keys[::-1]) # Reverse list
+
+print(piano_tuple[2:5])
