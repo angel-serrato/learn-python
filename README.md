@@ -1,27 +1,27 @@
-# Apuntes 100 Days of Code
+# Notes for 100 Days of Code
 
-¡Bienvenido al repositorio de apuntes del curso [100 days of code](https://www.udemy.com/course/100-days-of-code/) que estoy realizando en [Udemy](https://www.udemy.com/)! Este repositorio contiene mis apuntes personales, ejercicios y proyectos realizados durante el curso.
+Welcome to the notes repository for the [100 Days of Code](https://www.udemy.com/course/100-days-of-code/) course I'm taking on [Udemy](https://www.udemy.com/)! This repository contains my personal notes, exercises, and projects completed during the course.
 
-## Acerca del Curso
+## About the Course
 
-El curso de [100 days of code](https://www.udemy.com/course/100-days-of-code/) es una guía completa para aprender los fundamentos de Python, desde conceptos básicos hasta técnicas avanzadas.
+The [100 Days of Code](https://www.udemy.com/course/100-days-of-code/) course is a comprehensive guide to learning the fundamentals of Python, from basic concepts to advanced techniques.
 
-## Estructura del Repositorio
+## Repository Structure
 
-El repositorio está organizado de la siguiente manera:
+The repository is organized as follows:
 
-- **Beginner/**: Ejercicios básicos.
-- **Intermediate/**: Ejercicios intermedios.
-- **Advanced/**: Ejercicios avanzados.
+- **Beginner/**: Basic exercises.
+- **Intermediate/**: Intermediate exercises.
+- **Advanced/**: Advanced exercises.
 
-## Cómo Contribuir
+## How to Contribute
 
-Si encuentras algún error en mis apuntes, ejercicios o proyectos, ¡no dudes en abrir un issue o enviar un pull request! Tu ayuda es siempre bienvenida.
+If you find any mistakes in my notes, exercises, or projects, feel free to open an issue or submit a pull request! Your help is always appreciated.
 
-## Agradecimientos
+## Acknowledgements
 
-Quiero agradecer a [Angela Yu](https://www.linkedin.com/in/angela-yu-963a584b/) por impartir este excelente curso y a Udemy por brindar esta plataforma de aprendizaje.
+I would like to thank [Angela Yu](https://www.linkedin.com/in/angela-yu-963a584b/) for teaching this excellent course and Udemy for providing this learning platform.
 
-¡Espero que estos apuntes te sean útiles en tu viaje de aprendizaje!
+I hope these notes are helpful in your learning journey!
 
-¡Feliz codificación!
+Happy coding!
